@@ -1,3 +1,368 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+/*Estilos de la Nav*/
+ul a{
+    display: flex;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    margin-left: 180px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+h1 p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+div h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.facturas1{
+    border-radius: 10px;
+    width: 300px;
+    height: 260px;
+    grid-area: "imagen";
+}
+.parrafo1{
+    text-align: left;
+    grid-area: "texto";
+}
+.iframe{
+    width: 480px;
+    height: 300px;
+}
+span{
+    display: flex;
+    text-align: center;
 
+}
+.pan2{
+    border-radius: 10px;
+    width: 480px;
+    height: 300px;
+}
+.div-titulo3{
+    display: flex;
+}
+div h3{
+    text-align: justify;
+    
+}
+.section1{
+    position: relative;
+    display: flex;
 
-/*# sourceMappingURL=style.css.map */
+}
+.p1{
+    text-align: center;
+}
+footer iframe{
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+footer p{
+    display: inline;
+    padding: 200px;
+    position: relative;
+    bottom: -100px;
+    left: -60px;
+}
+.pr{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+main img{
+    width: 200px;
+    height:180px ;
+    margin: 9%;
+    border-radius: 10px;
+}
+body{
+    background-image: url(https://i.pinimg.com/564x/82/e2/a9/82e2a977911c078fd75a65db29a281d2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div3{
+    text-align: left;
+    position: relative;
+    top: -270px;
+}
+.titulo1{
+    text-align: center;
+}
+.parrafo2{
+    font-family: 'Times New Roman', Times, serif;
+    grid-area: "texto";
+}
+.parrafo3{
+    grid-area:"texto";
+    font-family: 'Times New Roman', Times, serif;
+}
+.contacto{
+    text-align: center;
+    margin-top: 50px;
+}
+.iframe1{
+    position: relative;
+    right: -320px;
+    border-radius: 10px;
+}
+.div5{
+    position: relative;
+    right: -600px;
+    top: -505px;
+    left: 925px;
+}
+.iframe1{
+    position: relative;
+    top: -505px;
+    right: -920px;
+}
+.iframe2{
+    position: relative;
+    right: -1115px;
+
+}
+.div6{
+    position: relative;
+    top: -300px;
+}
+.pan3{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    grid-area:"imagen";
+    padding: 20px;
+    object-fit: cover;
+}
+.parrafo4{
+    padding: 20px;
+    overflow: hidden;
+    grid-area: "texto";
+}
+.iframe3{
+    position: relative;
+    top: 0%;
+    right: -1000px;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.div8{
+    position: relative;
+    top: -450px;
+
+}
+footer iframe{
+    max-width: 500px;
+}
+div iframe{
+    border-radius: 10px;
+    max-width: 500px;
+}
+.span2{
+    display: flex;
+}
+.div-contenido{
+ display: flex;  
+}
+.div-titulo2{
+    display:flex ;
+}
+@media (max-width:768px){
+    .contenido-2, .contenido-3, .div-contenido, .ul{
+        flex-direction: column;
+    }
+
+}
+.ul{
+    list-style: none;
+    display: flex;
+    margin-left: 0px;
+
+}
+.container-titulo{
+    display: grid;
+    grid-template-columns:auto 1fr;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto imagen";
+    grid-gap: 20px;
+}
+.div-contenido{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: 
+    "texto imagen";
+}
+.grid-container-titulo{
+    display: grid;
+    grid-template-columns:auto 1fr;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto imagen";
+}
+.grid-container-contenido{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+    "texto imagen";
+}
+.titulo{
+    grid-area: "titulo";
+}
+.Titulo-Principal{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: solid;
+}
+.segundo-titulo{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto imagen";
+    grid-area: "titulo";
+}
+.contenido-2{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+    "texto iframe"
+}
+.iframe-tutorial{
+    grid-area: "iframe";
+}
+.titulo-tercero{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto imagen";
+}
+.contenido-3{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+    "texto imagen";
+}
+.container-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "redes redes iframe"
+    "contactos contactos iframe";
+    grid-gap: 20px;
+}
+.redes-sociales{
+    grid-area: "redes";
+}
+.ir-contacto{
+    grid-area: "contactos";
+    text-decoration: none;
+}
+.iframe-maps{
+    grid-area: "iframe";
+}
+.carousel-inner{
+    width: 100%;
+    height: auto;
+}
+.container-carrusel{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.texto-carrusel{
+    grid-row: 1;
+}
+.carrusel-productos{
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+}
+.budin{
+    width: 300px;
+    height: 350px;
+}
+.pan3-carrusel{
+    width: 300px;
+    height: 350px;
+}
+.torta-carrusel{
+    width: 300px;
+    height: 350px;
+}
+.container-productos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: -50px;
+}
+.factura2-carrusel{
+    width: 300px;
+    height: 350px;
+}
+.brownie-carrusel{
+    width: 300px;
+    height: 350px;
+}
+.dona-carrusel{
+    width: 300px;
+    height: 350px;
+}
+.texto-carrusel1{
+    grid-row: 1;
+    text-align: center;
+}
+.carruseñ-productos{
+    width: 300px;
+    height: 350px;
+}
+@media (max-width:768px){
+    .container-productos, .container-carrusel,.footer-productos,.locales-container {
+        flex-direction: column;
+    }
+}
+.footer-productos{
+    display: flex;
+}
+@media (max-width:768px){
+    .iframe-eureka, .iframe-el-artesano, .iframe-Ramos{
+        width: 412px;
+        height: 450px;
+        align-items: center;
+
+    }
+}
+@media (max-width:768px){
+    .container-inicio, .container-inicio-2, .container-inicio-3, .container-locales{
+        flex-direction: column;
+    }
+}
+.h2-locales{
+    text-align: center;
+}
