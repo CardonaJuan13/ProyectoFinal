@@ -32,10 +32,13 @@ div h1{
     width: 300px;
     height: 260px;
     grid-area: "imagen";
+    position: relative;
+    top: -50px;
 }
 .parrafo1{
     text-align: left;
     grid-area: "texto";
+    font-family: 'Times New Roman', Times, serif;
 }
 .iframe{
     width: 480px;
@@ -50,6 +53,9 @@ span{
     border-radius: 10px;
     width: 480px;
     height: 300px;
+    position: relative;
+    left: -25px;
+    top: -50px;
 }
 .div-titulo3{
     display: flex;
@@ -101,7 +107,14 @@ body{
     top: -270px;
 }
 .titulo1{
-    text-align: center;
+    text-align: left;
+    grid-area: 1/1/2/3;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding-top: 20px;
+    position: relative;
+    right: -220px;
 }
 .parrafo2{
     font-family: 'Times New Roman', Times, serif;
@@ -201,8 +214,10 @@ div iframe{
     "titulo titulo"
     "texto imagen";
     grid-gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .div-contenido{
+    font-family: 'Times New Roman', Times, serif;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-areas: 
@@ -220,15 +235,18 @@ div iframe{
     grid-template-columns: 1fr auto;
     grid-template-areas:
     "texto imagen";
+    position: relative;
 }
 .titulo{
     grid-area: "titulo";
+    font-family: 'Times New Roman', Times, serif;
 }
 .Titulo-Principal{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
 }
 .segundo-titulo{
     display: grid;
@@ -237,6 +255,7 @@ div iframe{
     "titulo titulo"
     "texto imagen";
     grid-area: "titulo";
+    font-family: 'Times New Roman', Times, serif;
 }
 .contenido-2{
     display: grid;
@@ -246,6 +265,7 @@ div iframe{
 }
 .iframe-tutorial{
     grid-area: "iframe";
+    padding-right: 40px;
 }
 .titulo-tercero{
     display: grid;
@@ -253,6 +273,7 @@ div iframe{
     grid-template-areas: 
     "titulo titulo"
     "texto imagen";
+    font-family: 'Times New Roman', Times, serif;
 }
 .contenido-3{
     display: grid;
@@ -260,15 +281,7 @@ div iframe{
     grid-template-areas: 
     "texto imagen";
 }
-.container-footer{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 
-    "redes redes iframe"
-    "contactos contactos iframe";
-    grid-gap: 20px;
-}
+
 .redes-sociales{
     grid-area: "redes";
 }
@@ -277,7 +290,10 @@ div iframe{
     text-decoration: none;
 }
 .iframe-maps{
-    grid-area: "iframe";
+    grid-area: "Iframe";
+    position: relative;
+    right: -300px;
+    top: -50px;
 }
 .carousel-inner{
     width: 100%;
@@ -290,6 +306,7 @@ div iframe{
     grid-gap: 10px;
     justify-items: center;
     align-items: center;
+    font-family: 'Times New Roman', Times, serif
 }
 .texto-carrusel{
     grid-row: 1;
@@ -338,7 +355,7 @@ div iframe{
     grid-row: 1;
     text-align: center;
 }
-.carruseñ-productos{
+.carrusel-productos{
     width: 300px;
     height: 350px;
 }
@@ -365,4 +382,85 @@ div iframe{
 }
 .h2-locales{
     text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+.container-inicio{
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.container-inicio-2{
+    padding-left: 30px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+.container-inicio-3{
+    padding: 50px 30px 50px;
+}
+.container-footer-index{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "redes iframe"
+    "iframe iframe";
+    grid-gap: 20px;
+}
+.lista-footer, .lista-footer-productos, .lista-footer-locales, .lista-footer-sobrens{
+    list-style: none;
+    display: flex;
+    position: relative;
+    bottom: -50px;
+    grid-area: "Redes";
+}
+.container-footer-productos, .container.footer-sobrens{
+    display: grid;
+    grid-template-columns:0,5fr, 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "Iframe Redes";
+}
+.iframe-maps-productos{
+    grid-area: "Iframe";
+    position: relative;
+    bottom: -20px;
+    right: -200px;
+}
+.container-footer-locales{
+    display: grid;
+    grid-template-columns: auto 0,5fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "Redes Iframe";
+}
+.locales-container-1, .locales-container-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    align-items:center;
+}
+.iframe-Ramos, .iframe-eureka{
+    grid-area:2/1;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+.parrafo2-locales, .parrafo3-locales{
+    grid-area: 2/2;
+}
+.iframe-maps-locales{
+    position: relative;
+    right: -150px;
+}
+.iframe-maps-sobrens{
+    grid-area: "Iframe";
+    position: relative;
+    right: -1100px;
+    top: -50px;
+}
+.pan3-sobrens{
+grid-area: "imagen";
+border-radius: 30px;
+padding-right: 30px;
 }

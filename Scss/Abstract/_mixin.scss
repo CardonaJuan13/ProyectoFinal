@@ -1,0 +1,8 @@
+@mixin estilo-nav{
+    background-color: $color-navbar;
+    opacity: 1.6;
+}
+@mixin animacion-nav{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
