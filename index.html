@@ -2,77 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido al sitio web de la panderia La Rosca">
+    <meta name="keywords" content="panaderia, pan, facturas, merienda, artesanal, pasteleria">
     <title>Inicio</title>
-    <link rel="icon" type="image/png" href="./Imagenes/favicon-32x32.png">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" type="image/png" href="../Imagenes/favicon-32x32.png">
 </head>
 <body>
-    <!-- Encabezado -->
-        <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Header Start-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-color">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand" href="#"><img src="./Imagenes/icono-de-la-panadería.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                  <a class="nav-link" href="./Paginas/locales.html">Locales</a>
-                  <a class="nav-link" href="./Paginas/sobrenosotros.html">Sobre Nosotros</a>
-                  <a class="nav-link" href="./Paginas/contacto.html">Contacto</a>
-                  <a class="nav-link" href="./locales.html">Locales</a>
-                </div>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/locales.html">Locales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/sobrenosotros.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/contacto.html">Contacto</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </nav>
-    </header>
-    <!-- Contenido principal -->
-    <main>
-    <section class="container-fluid">
-        <div class="row">
-            <h1 class="h1">
-                <p>La Rosca</p>
-            </h1>
-            <div id="carouselExampleIndicators" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="./Imagenes/muestras1.jpg" class="w-100"alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./Imagenes/muestras2.jpg" class="w-100"alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./Imagenes/muestras3.jpg"class="w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
+</header>
+<!-- Header End-->
+<!-- Main Start-->
+<main>
+    <section class="container-inicio">
+        <h1 class="Titulo-Principal">La Rosca</h1>
+        <div class="container-titulo">
+        <h2>Bienvenidos</h1>
         </div>
-    </section>
-</main>
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="./index.html" class="btn btn-primary">Menu</a>
-  </div>
+        <div class="div-contenido">
+            <p class="parrafo 2 ">Adéntrate en un mundo de aroma y sabor en La Rosca, una panadería que ha cautivado los corazones y los paladares de sus clientes durante décadas. Desde su apertura, La Rosca se ha distinguido por su autenticidad y su dedicación a la excelencia en la panadería. Cada mañana, los maestros panaderos amasan con pasión y maestría para crear productos irresistibles, desde baguettes crujientes hasta suaves croissants y deliciosos bollos recién horneados. Con ingredientes frescos y recetas transmitidas de generación en generación, La Rosca te invita a sumergirte en la magia del pan artesanal y los pasteles exquisitos. Descubre la esencia de La Rosca y déjate seducir por la tentación de nuestros productos horneados excepcionales.Sumérgete en el acogedor ambiente de La Rosca, donde el aroma a pan recién horneado te envuelve y te transporta a un mundo de placer culinario. Nuestro equipo de expertos artesanos trabaja incansablemente, perfeccionando cada detalle para brindarte una experiencia única. Desde los clásicos panes tradicionales hasta las creaciones más innovadoras, cada bocado en La Rosca es una obra maestra de sabor y textura. Además, nuestro amable personal te recibirá con una sonrisa, brindándote un servicio personalizado y garantizando que cada visita sea inolvidable. Descubre por qué La Rosca es el lugar predilecto para los amantes del buen pan y los placeres dulces.</p>
+            <img class="facturas1" src="./Imagenes/facturas1.jpg" alt="">
+        </div>
+    </section>
+<section class="container-inicio-2">
+    <div class="segundo-titulo">
+        <h2>Lo que hacemos:</h2>
+    </div>  
+            <div class="contenido-2">
+                <iframe class="iframe-tutorial" width="" height="315" src="https://www.youtube-nocookie.com/embed/yCDTVzRQnD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p class="parrafo1">La Rosca es una panadería única y llena de encanto que deleita a sus clientes con productos horneados excepcionales. Con una larga tradición y un compromiso inquebrantable con la calidad, La Rosca ofrece una amplia variedad de panes frescos, pasteles irresistibles y delicias dulces que hacen agua la boca. Cada creación es elaborada con pasión y cuidado, utilizando ingredientes de la más alta calidad. En La Rosca, la experiencia de nuestros clientes es nuestra máxima prioridad, y nos esforzamos por ofrecer momentos de alegría y satisfacción a través de nuestros productos horneados de primera categoría.Adéntrate en el apasionante mundo de La Rosca, una panadería con una rica historia y un legado de excelencia en la elaboración de productos horneados. En La Rosca, nos enorgullece mantener vivas las tradiciones de antaño y utilizar métodos artesanales que se han transmitido de generación en generación. Nuestro compromiso con la calidad se refleja en cada uno de nuestros productos, desde el aroma tentador hasta el sabor exquisito. Cada pan, pastel y dulce es elaborado con ingredientes cuidadosamente seleccionados y con un amor inigualable por nuestro oficio. Ven a La Rosca y déjate llevar por una experiencia gastronómica única donde la pasión por la panadería se convierte en una delicia para tus sentidos.En La Rosca, la dedicación y el compromiso con nuestros clientes son nuestra máxima prioridad. Nos esforzamos por brindar un servicio excepcional y una experiencia cálida y acogedora a todos los que nos visitan. Nuestro equipo de expertos panaderos trabaja con pasión para asegurar que cada producto sea una obra maestra de sabor y calidad. Desde el amasado de la masa hasta el último detalle en la presentación, cuidamos cada aspecto para asegurarnos de que cada visita a La Rosca sea una experiencia memorable llena de deliciosas sorpresas. Ven y únete a nosotros en este viaje culinario único, donde el arte de la panadería cobra vida.</p>
 </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
-</body>
-</html>
+</section>
+<section class="container-inicio-3">
+    <div class="titulo-tercero">
+        <h3>Titulo</h3>
+    </div>
+            <div class="contenido-3">    
+                <p class="parrafo3">En La Rosca, nos apasiona crear momentos dulces y memorables. Nuestra panadería es un lugar donde la tradición se encuentra con la innovación. Desde nuestros suaves pasteles hasta nuestros panes recién horneados, cada producto refleja nuestro compromiso con la calidad y el sabor excepcionales. Ven y descubre un mundo de delicias hechas con amor y dedicación en La Rosca.En La Rosca, no solo creamos productos deliciosos, sino que también nos esforzamos por brindar una experiencia única. Nuestro equipo de panaderos y pasteleros expertos combina técnicas artesanales con ingredientes de alta calidad para ofrecerte productos frescos y sabrosos. Nuestro ambiente acogedor te invita a disfrutar de momentos especiales con amigos y familiares mientras saboreas un café y te deleitas con nuestras creaciones. Ven a La Rosca y déjate llevar por los aromas irresistibles y los sabores auténticos que convertirán tu visita en un verdadero placer para los sentidos.</p>
+                    <img class="pan2" src="./Imagenes/pan2.png" align="right">
+</div>
+</section>
+    </main>
+    <!--Main End-->
+    <!--Footer Start-->
+        <footer class="container-footer">
+        <div>
+            <p class="redes-sociales">RedesSociales</p>
+        </div>
+        <div>
+                <p class="ir-contacto"> <a href="./Paginas/contacto.html">Contacto</a></p>
+        </div>
+        <div>
+                <iframe class="iframe-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143.71298970043082!2d-68.30779413388153!3d-54.807949738751574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c231f42562d55%3A0x16ebb4d5f54f5188!2sRamos%20Generales%20El%20Almac%C3%A9n!5e0!3m2!1ses-419!2sar!4v1684862104090!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+</footer>
+<!--Footer End-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        </body>
+            </html>
